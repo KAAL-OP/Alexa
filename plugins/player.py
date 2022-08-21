@@ -140,12 +140,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @Murat_30...**")
+                        f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @abhinasroy...**")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @Murat_30 ❤️...**")
+            f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @abhinasroy ❤️...**")
         return
     
     audio = (
@@ -171,10 +171,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
-                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
+                        InlineKeyboardButton(text="Group", url=f"https://t.me/DOSTI_GROUP_1234"),
+                      InlineKeyboardButton(text="Owner", url=f"https://t.me/abhinasroy"),
                   ],[
-                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
+                      InlineKeyboardButton(text="Repo", url=f"https://github.com/ABHINASXD")
 
                 ]
             ]
@@ -211,10 +211,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
-                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
+                        InlineKeyboardButton(text="Group", url=f"https://t.me/DOSTI_GROUP_1234"),
+                      InlineKeyboardButton(text="Owner", url=f"https://t.me/abhinasroy"),
                   ],[
-                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
+                      InlineKeyboardButton(text="Repo", url=f"https://github.com/ABHINASXD")
 
                 ]
             ]
@@ -228,10 +228,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
-                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
+                        InlineKeyboardButton(text="Group", url=f"https://t.me/DOSTI_GROUP_1234"),
+                      InlineKeyboardButton(text="Owner", url=f"https://t.me/abhinasroy"),
                   ],[
-                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
+                      InlineKeyboardButton(text="Repo", url=f"https://github.com/ABHINASXD")
 
                 ]
             ]
@@ -283,10 +283,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(text="Group", url=f"https://t.me/Astro_HelpChat"),
-                      InlineKeyboardButton(text="Owner", url=f"https://t.me/Murat_30"),
+                        InlineKeyboardButton(text="Group", url=f"https://t.me/DOSTI_GROUP_1234"),
+                      InlineKeyboardButton(text="Owner", url=f"https://t.me/abhinasroy"),
                   ],[
-                      InlineKeyboardButton(text="Repo", url=f"https://github.com/KAAL-OP/Alexa")
+                      InlineKeyboardButton(text="Repo", url=f"https://github.com/ABHINASXD")
 
                 ]
             ]
