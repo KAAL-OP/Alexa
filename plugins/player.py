@@ -88,7 +88,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Toxic  (@unbeatable_abuser)",
+        f"Powered By: Toxic  (@ABHINASROY)",
         (255, 255, 255),
         font=font,
     )
@@ -163,7 +163,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/eeeec4720286552979aee.jpg"
+        thumb_name = "https://te.legra.ph/file/453d82c5742ce541e2a6a.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -222,7 +222,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/eeeec4720286552979aee.jpg"
+            thumb_name = "https://te.legra.ph/file/453d82c5742ce541e2a6a.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -338,7 +338,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/eeeec4720286552979aee.jpg", 
+                             photo="https://te.legra.ph/file/453d82c5742ce541e2a6a.jpg", 
                              caption="**𝐏𝐚𝐮𝐬𝐞𝐝⏸...**"
     )
 
@@ -383,7 +383,7 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/eeeec4720286552979aee.jpg", 
+                             photo="https://te.legra.ph/file/453d82c5742ce541e2a6a.jpg", 
                              caption=f'**𝐒𝐊𝐈𝐏𝐄𝐃...**'
    ) 
 
@@ -399,7 +399,7 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/eeeec4720286552979aee.jpg", 
+                             photo="https://te.legra.ph/file/453d82c5742ce541e2a6a.jpg", 
                              caption="**𝐒𝐭𝐨𝐩𝐩𝐞𝐝...**"
     )
 
@@ -417,6 +417,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/eeeec4720286552979aee.jpg",
+                              photo="https://te.legra.ph/file/453d82c5742ce541e2a6a.jpg",
                               caption="**𝐑𝐞𝐥𝐨𝐝𝐞𝐝....**"
     )
