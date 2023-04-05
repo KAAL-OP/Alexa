@@ -42,7 +42,8 @@ For playing music ...
 /pause- to pause music
 /resume- to resume music
 /alive- to check bot alive 
-/broadcast- to broadcast
+/gcast- to broadcast via bot
+/agcast- to broadcast via assistant
 ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
