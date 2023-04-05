@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By AdityaPlayer
+
 
 import asyncio
 from pyrogram import Client, filters
@@ -8,7 +8,7 @@ from modules.clientbot.clientbot import client as aditya
 from modules.config import SUDO_USERS
 from modules import bot
 
-@bot.on_message(filters.command(["gcast", "podcast", "post"]))
+@bot.on_message(filters.command(["gcast", "post", "post"]))
 async def broadcast(_, message: Message):
     sent=0
     failed=0
